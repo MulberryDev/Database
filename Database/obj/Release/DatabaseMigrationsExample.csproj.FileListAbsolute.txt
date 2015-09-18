@@ -1,0 +1,8 @@
+H:\DatabaseMigrationsExample\DatabaseMigrationsExample\bin\Release\DatabaseMigrationsExample.dll
+H:\DatabaseMigrationsExample\DatabaseMigrationsExample\bin\Release\DatabaseMigrationsExample.pdb
+H:\DatabaseMigrationsExample\DatabaseMigrationsExample\bin\Release\FluentMigrator.dll
+H:\DatabaseMigrationsExample\DatabaseMigrationsExample\bin\Release\FluentMigrator.pdb
+H:\DatabaseMigrationsExample\DatabaseMigrationsExample\bin\Release\FluentMigrator.xml
+H:\DatabaseMigrationsExample\DatabaseMigrationsExample\obj\Release\DatabaseMigrationsExample.csprojResolveAssemblyReference.cache
+H:\DatabaseMigrationsExample\DatabaseMigrationsExample\obj\Release\DatabaseMigrationsExample.dll
+H:\DatabaseMigrationsExample\DatabaseMigrationsExample\obj\Release\DatabaseMigrationsExample.pdb
