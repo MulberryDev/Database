@@ -4,3 +4,4 @@
  /assembly "H:\Database\Database\bin\Release\Database.dll"^
  /verbose=true --task rollback^
  PAUSE
+ PAUSE

@@ -48,6 +48,7 @@
     <Compile Include="Migrations\201509171246_defaultValueTo1.cs" />
     <Compile Include="Migrations\201509171550_increaseCodeSizeArchive.cs" />
     <Compile Include="Migrations\201509181541_setArchiveProductKeyToNullable.cs" />
+    <Compile Include="Migrations\20150921_addProductCategoryTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
