@@ -8,3 +8,4 @@ set /P INPUT=Version number?: %=%
  /verbose=true --task rollback:toversion^
  /version=%INPUT%^
  PAUSE
+ PAUSE

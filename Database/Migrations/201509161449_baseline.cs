@@ -13,12 +13,16 @@ namespace Database.Migrations
         public override void Up()
         {
             Create.Table("Product")
-                .WithColumn("ID").AsInt32().NotNullable().PrimaryKey()
+                .WithColumn("ID").AsInt32().NotNullable().PrimaryKey().Identity()
                 .WithColumn("code").AsString(50).NotNullable();
 
             Create.Table("MultimediaType")
                 .WithColumn("ID").AsInt32().NotNullable().PrimaryKey().Identity()
                 .WithColumn("name").AsString(50).NotNullable();
+
+            Insert.IntoTable("MultimediaType")
+                .Row(new { name = "Image" })
+                .Row(new { name = "Video" });
 
             Create.Table("User")
                 .WithColumn("ID").AsInt32().NotNullable().PrimaryKey().Identity()

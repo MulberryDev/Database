@@ -29,7 +29,7 @@ namespace Database.Migrations
 
             Create.Table("ProductLanguage")
                 .WithColumn("productID").AsInt32().NotNullable().ForeignKey("Product", "ID")
-                .WithColumn("languageID").AsInt32().NotNullable().ForeignKey("Language", "ID")
+                .WithColumn("languageID").AsInt32().NotNullable().ForeignKey("Language", "ID").WithDefaultValue(1)
                 .WithColumn("googleName").AsString(255).Nullable()
                 .WithColumn("googleMaterial").AsString(255).Nullable()
                 .WithColumn("googleColour").AsString(255).Nullable();
