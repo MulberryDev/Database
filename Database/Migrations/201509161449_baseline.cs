@@ -42,7 +42,7 @@ namespace Database.Migrations
                 .WithColumn("multimediaTypeID").AsInt32().NotNullable().ForeignKey("multimediaType", "ID").WithDefaultValue(0)
                 .WithColumn("code").AsString(50).NotNullable()
                 .WithColumn("filePath").AsString(255).NotNullable()
-                .WithColumn("isValid").AsBoolean().NotNullable().WithDefaultValue(false)
+                .WithColumn("isValid").AsBoolean().Nullable()
                 .WithColumn("validatedAt").AsDateTime().Nullable()
                 .WithColumn("validatedBy").AsInt32().Nullable().ForeignKey("User", "ID")
                 .WithColumn("isUploadedToAmplience").AsBoolean().NotNullable().WithDefaultValue(false)

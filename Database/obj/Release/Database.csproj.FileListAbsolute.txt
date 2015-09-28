@@ -9,8 +9,8 @@ H:\DatabaseMigrationsExample\Database\obj\Release\DatabaseMigrationsExample.pdb
 H:\Database\Database\bin\Release\FluentMigrator.dll
 H:\Database\Database\bin\Release\FluentMigrator.pdb
 H:\Database\Database\bin\Release\FluentMigrator.xml
-H:\Database\Database\obj\Release\Database.csprojResolveAssemblyReference.cache
 H:\Database\Database\bin\Release\Database.dll
 H:\Database\Database\bin\Release\Database.pdb
 H:\Database\Database\obj\Release\Database.dll
 H:\Database\Database\obj\Release\Database.pdb
+H:\Database\Database\obj\Release\Database.csprojResolveAssemblyReference.cache
